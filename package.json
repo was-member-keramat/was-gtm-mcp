@@ -1,0 +1,47 @@
+{
+  "name": "was-gtm-mcp",
+  "version": "1.0.0",
+  "description": "WAS GTM MCP — Shareable Google Tag Manager MCP server. Manage GTM accounts, containers, workspaces, tags, triggers, variables, and API endpoints.",
+  "type": "module",
+  "bin": {
+    "was-gtm-mcp": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "server.js",
+    "auth.js",
+    "config.js",
+    "oauth-config.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node cli.js",
+    "auth": "node cli.js auth"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google-tag-manager",
+    "gtm",
+    "claude",
+    "cursor",
+    "antigravity",
+    "was"
+  ],
+  "author": "Abdullah Al Masum — Web Analytics Solution (WAS)",
+  "license": "MIT",
+  "homepage": "https://github.com/was-member-keramat/was-gtm-mcp",
+  "repository": {
+    "type: "git",
+    "url": "https://github.com/was-member-keramat/was-gtm-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/was-member-keramat/was-gtm-mcp/issues"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
+
